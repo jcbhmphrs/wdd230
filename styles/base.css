@@ -1,0 +1,96 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+
+:root {
+    --primary-color: #001d2c;
+    --secondary-color: #ffffff;
+    --accent-color: #b9529b;
+    --accent-2-color: #00638f;
+    --page-margin: 5rem;
+
+}
+
+body {
+    font-family: 'Barlow', Helvetica, sans-serif;
+    background: var(--secondary-color);
+    margin: 0;
+}
+
+nav{
+    padding: 1rem;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    height: 100px;
+    color: var(--secondary-color);
+    display: flex;
+    padding: 1rem;
+    background: var(--primary-color);
+}
+
+#profile-picture {
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px black;
+}
+
+h1 {
+    margin:auto;
+    justify-content: center;
+    padding: 10px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem auto;
+    align-items: center;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    border-radius:19px 19px 0 0 ;
+    margin: 0;
+    text-align: center;
+    padding: 1rem;
+    background: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+.card {
+    box-shadow: 5px 5px 15px #001d2c;
+    border-radius: 20px;
+    margin: 1rem;
+    min-width: 400px;
+}
+
+li {
+    list-style-type: none;
+}
+
+li a{
+    clear: left;
+}
+
+a {
+    color: var(--accent-color);
+    padding: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 0.5rem;
+    color: var(--secondary-color);
+    background: var(--primary-color);
+}
+
+.highlight {
+    color: yellow
+}
