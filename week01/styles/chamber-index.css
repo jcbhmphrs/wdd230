@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Mukta:wght@300&family=Playfair+Display:wght@600&display=swap');
+#hfont {
+    font-family: 'Abel', sans-serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'Playfair Display', serif;
+}
+nav {
+    background: #cf3230; 
+}
+header {
+    background: #09367a;
+}
+#upcomingEvents {
+    background: #fff5ec;
+}
+#eventGallery {
+    background: #09367a;
+}  
+main {
+    display: flex;
+    background: #fff5ec;
+}
+#content {
+    display: grid;
+    background: #cf3230;
+}
+footer {
+    background: #331e38;
+}
