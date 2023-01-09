@@ -5,7 +5,7 @@
     :root {
         --primary-color: #001d2c;
         --secondary-color: #ffffff;
-        --accent-color: #b9529b;
+        --accent-color: #92166F;
         --accent-2-color: #00638f;
         --page-margin: 0rem;
     
@@ -45,7 +45,7 @@
     
     main {
         display: grid;
-        width: 1000px;
+        max-width: 1800px;
         grid-template-columns: 1fr 1fr;
         margin: 1rem auto;
         padding: 20px;
