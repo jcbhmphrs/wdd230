@@ -1,13 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
 @media only screen and (min-width: 600px){
-    :root {
-        --primary-color: #001d2c;
-        --secondary-color: #ffffff;
-        --accent-color: #92166F;
-        --accent-2-color: #00638f;
-        --page-margin: 0rem;
-    }    
- 
+    #profile-picture {
+        margin-left: 25px;
+    }
     nav{
         padding: 1rem;
         justify-content: right;

@@ -4,8 +4,9 @@
     --primary-color: #001d2c;
     --secondary-color: #ffffff;
     --accent-color: #92166F;
-    --accent-2-color: #00638f;
-    --page-margin: 5rem;
+    --dark-mode-accent: #1c0040d7;
+    --dark-mode-bg: #090038d9;
+    --dark-mode-text: #ffa844;
 }
 
 body {
@@ -21,7 +22,8 @@ nav{
     flex-direction: column;
     align-items: center;
 }
-nav a {
+
+nav a, svg {
     margin: 10px;
 }
 #menu-button {
@@ -29,7 +31,7 @@ nav a {
     margin: 10px;
 }
 header {
-    height: 100px;
+    height: 150px;
     color: var(--secondary-color);
     display: flex;
     padding: 1rem;
@@ -43,7 +45,7 @@ header {
 
 h1 {
     margin:auto;
-    justify-content: center;
+    text-align: center;
     padding: 10px;
 }
 
@@ -69,7 +71,7 @@ h3 {
 }
 
 .card {
-    box-shadow: 5px 5px 15px #001d2c;
+    box-shadow: 5px 5px 15px black;
     border-radius: 20px;
     margin: 1rem;
     min-width: 400px;
@@ -84,6 +86,7 @@ li a{
 }
 
 a {
+    text-decoration: none;
     color: var(--accent-color);
     padding: 5px;
 }
@@ -99,11 +102,17 @@ footer {
     color: yellow
 }
 
+
+
+
+
+
 /* responsive Menu button */
 
-.menu {
+#theMenu {
+    border-radius: 15px 0px 0px 15px;
 	position: fixed;
-	top: 0;
+	top: 7.25rem;
 	right: 0;
 	list-style-type: none;
 	margin: 0;
@@ -111,18 +120,16 @@ footer {
 	background: #f7f7f7;
 	z-index: 10;
 	overflow: hidden;
-	box-shadow: 2px 0 20px rgba(0, 0, 0, 0.26);
+	box-shadow: 5px 5px 15px #001d2c;;
 }
-.menu li a {
-	display: block;
+
+.menu-item {
+    display: block;
 	text-decoration: none;
-	text-align: center;
-	width: 12rem;
+	width: 10rem;
 	padding: 1rem;
-	color: #72739f;
+	color: var(--accent-color);
 	position: relative;
-	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-	transition: background 0.5s ease-in-out;
 }
 li a.menu-item {
 	display: none;
@@ -131,6 +138,22 @@ li a.open {
 	display: flex;
 }
 
+
+
+
+
+
+
+/* Dark mode toggle */
+.darkMenu {
+    background: var(--dark-mode-accent);
+}
+.darkBody {
+    background: var(--dark-mode-bg);
+}
 .darkChar{
-    color: #ffb361;
+    color: var(--dark-mode-text);
+}
+.darkCard{ 
+    background: var(--dark-mode-accent);
 }
