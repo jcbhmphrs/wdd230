@@ -22,7 +22,9 @@ nav{
     flex-direction: column;
     align-items: center;
 }
-
+button {
+    background: none;
+}
 nav a, svg {
     margin: 10px;
 }
@@ -117,7 +119,7 @@ footer {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
-	background: #f7f7f7;
+	background: var(--secondary-color);
 	z-index: 10;
 	overflow: hidden;
 	box-shadow: 5px 5px 15px #001d2c;;
