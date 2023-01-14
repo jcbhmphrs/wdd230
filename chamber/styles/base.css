@@ -55,7 +55,7 @@ nav {
     height: 65px; width: 170px;
 }
 #sticky-nav {
-    /* display: flex; */
+    display: flex;
     flex-direction: column;
     align-items: center;
     z-index: 20;
