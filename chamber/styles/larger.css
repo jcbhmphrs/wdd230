@@ -1,3 +1,75 @@
+:root {
+    --primary: rgb(207, 50, 48);
+    --secondary: #09367a;
+    --accent1: #fff5ec;
+    --accent1b: #ffeddd;
+    --accent2: #331e38;
+
+}
+
 @media only screen and (min-width: 600px){
+    nav {
+        flex-direction: row;
+    }
+    #sticky-nav {
+        flex-direction: row;
+    }
+    #hamburger {
+        display: none;
+    }
+    .menu-item {
+        font-family: 'Playfair Display', serif;
+        color: var(--primary);
+        padding: 0.25rem 1rem;
+        border-radius: 15px;
+        margin-left: 50px;
+        display: flex; flex-direction: row-reverse;
+    }
+    nav {
+        height: 5rem;
+        column-gap: 1rem;
+        justify-content: right;
+    }
+    #search {
+        display: block;
+    }
+    #stamp {
+        /* padding: 1rem; */
+        position: absolute; left: 0;
+    }
+    #stamp h1 {
+        font-size: 2rem;
+    }
+    #logo {
+        align-self: left;
+        width: 4rem;
+        height: 2rem;
+    }
+    header {
+        justify-content: center;
+    }
+    #curtain {
+        justify-items: left;
+        width: 50%;
+        clip-path: polygon(0% 0%, 50% 0%, 100% 100%, 0% 100% );
+    }
+    .curtain-text {
+        font-size: 1.5rem;
+        margin-left: 3rem;
+        width: 6rem;
+    }
     
+    #content {
+        grid-template-columns: repeat(4, 1fr);
+    };
+    .bar {
+        /* display: none; */
+        grid-column: 1/5;
+    }
+}
+.spotlight{ 
+    grid-column: 3/5;
+}
+.weather {
+    grid-column: 1/3;
 }

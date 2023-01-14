@@ -10,7 +10,6 @@
 }
 
 
-
 body {
     min-width: 375px;
     display: flex;
@@ -51,6 +50,9 @@ nav {
     flex-direction: column;
     align-items: center;
 }
+#search {
+    display: none;
+}
 #logo {
     margin-top: 0.5rem;
     height: 65px; width: 170px;
@@ -61,11 +63,10 @@ nav {
     align-items: center;
     z-index: 20;
     height: 65px;
-    background: var(--accent1b);
     position: sticky; top: 0;
 }
 #hamburger {
-    margin: 10px;
+    
     max-width: 50px;
 }
 .menu-item {
@@ -78,6 +79,7 @@ nav {
 
 
 header{
+    position: relative;
     display: flex;
 }
 #hero-image {
@@ -85,22 +87,24 @@ header{
     width: 100%; height: 100%;
 }
 #curtain {
-    display: none;
+    justify-items: center;
     position: absolute;
-    top: 0px; left: 0px;
-    clip-path: polygon(0% 0%, 50% 0%, 100% 100%, 0% 100% );
-    width: 50%; 
+    top: 0; left: 0;
+    height: 100%; width: 100%;
+    /* clip-path: polygon(0% 0%, 50% 0%, 100% 100%, 0% 100% ); */
+    width: 30%; 
     background-color: rgb(207, 50, 48, 0.6);
 }
 .t-on-color-bg{
     color: var(--accent1);
 }
-#curtain h1{
-    width: 125px;
-    margin: 6rem 0;
+#curtain h1 {
+    padding-top: 2rem;
 }
-
-
+#curtain a {
+    color: var(--accent1);
+    font-size: 1.5rem;
+}
 
 
 #upcomingEvents {
@@ -153,20 +157,14 @@ header{
 }
 
 
-
-
-
-
-
-
-
-
 #call-to-action {
     align-items: center;
     display: flex;
     flex-direction: column;
 }
 #statment {
+    width: 100%;
+
     padding: 1rem;
     font-size: 24px;
     height: 50%;
@@ -189,15 +187,9 @@ header{
 
 
 footer {
+    
     background: var(--accent2);
 }
 .social-media-card{
     margin-top: 1rem;
-}
-
-
-.bar {
-    border-bottom: 1px solid var(--secondary);
-    background-color: var(--secondary);
-    grid-column: 1/3;
 }
