@@ -8,8 +8,7 @@
     --accent2: #331e38;
 
 }
-
-
+/* preliminary css rulesets fo rwebsite */
 body {
     min-width: 375px;
     display: flex;
@@ -35,9 +34,7 @@ a {
     text-decoration: none;
     border: 1px solid var(--secondary);
 }
-
-
-
+/* navigation section of website */
 nav h1 {
     margin: 0;
     font-size: 32px;
@@ -58,7 +55,7 @@ nav {
     height: 65px; width: 170px;
 }
 #sticky-nav {
-    display: flex;
+    /* display: flex; */
     flex-direction: column;
     align-items: center;
     z-index: 20;
@@ -66,18 +63,12 @@ nav {
     position: sticky; top: 0;
 }
 #hamburger {
-    
     max-width: 50px;
 }
 .menu-item {
     display: none;
 }
-
-
-
-
-
-
+/* header/hero image of website */
 header{
     position: relative;
     display: flex;
@@ -105,8 +96,7 @@ header{
     color: var(--accent1);
     font-size: 1.5rem;
 }
-
-
+/* upcoming events section of website */
 #upcomingEvents {
     column-gap: 15%;
     padding: 1.5rem;
@@ -134,29 +124,21 @@ header{
     transform-origin: 50% 50%;
     transform: rotate(180deg);
 }
-
-
-
-
-
-
-
+/* content section of the website */
 #content {
     margin-top: 1rem;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    
 }
 .content-box {
     margin-bottom: 1rem;
 }
 .content-card{
-    clip-path: circle();
+    clip-path: circle(100%);
     height: 7rem;
     width: 7rem;
 }
-
-
+/* call to action section of the website */
 #call-to-action {
     align-items: center;
     display: flex;
@@ -164,15 +146,12 @@ header{
 }
 #statment {
     width: 100%;
-
     padding: 1rem;
     font-size: 24px;
     height: 50%;
     background-color: var(--secondary);
 }
 #divider-image {
-    clip-path: ellipse();
-    background-color: none;
     padding: 2rem;
     z-index: 10;
 }
@@ -182,14 +161,25 @@ header{
     height: 50%;
     background-color: var(--primary);
 }
-
-
-
-
+/* footer section of website */
 footer {
-    
     background: var(--accent2);
 }
 .social-media-card{
     margin-top: 1rem;
+}
+#copyWrite {
+    color: var(--accent1);
+}
+.highlight {
+    color: yellow;
+}
+.open {
+    border: none;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--accent1);
+}
+.close {
+    display: none;
 }

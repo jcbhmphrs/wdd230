@@ -6,10 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name = "description" content="Home CVCC Cache Valley Chamber of Commerce - platform for economic progression">
     <meta name="author" content="Jacob Humphreys">
-
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
-
     <link rel="icon" href="images/favicon.ico">
     <meta property="og:title" content="Cache Valley Chamber of Commerce">
     <meta property="og:type" content="website">
@@ -24,6 +22,7 @@
             <img id="logo" src="images/chamber-logo.png" alt="chamber logo">
         </div>
         <div id="sticky-nav">
+            <label for="search"></label>
             <input type="search" id="search" placeholder="search">
             <img id='hamburger' src="images/menu-icon.png" alt="menu-icon">
             <a class="menu-item" href="index.html">Home</a>
@@ -37,7 +36,7 @@
             <div id="curtain">
                 <div class="curtain-text">
                     <h1 class="t-on-color-bg">We<br>Build<br>Jobs</h1>
-                    <a href="#" >Join</a>
+                    <a href="index.html" >Join</a>
                 </div>
                 
             </div>
@@ -45,7 +44,7 @@
     <main> 
         <div id="upcomingEvents">
             <h2>Upcoming <br> Events</h2>
-            <a class='all-events' href="#">see all upcoming events</a>
+            <a class='all-events' href="index.html">see all upcoming events</a>
         </div>
         <div id="eventGallery">
             <img class="arrow" src="images/upcoming-events/left-arrow.svg" alt="left arrow key">
@@ -96,7 +95,7 @@
         </div>
         <div id="learn-more">
             <p class="t-on-color-bg">To learn more, click below:</p>
-            <a class="t-on-color-bg" href="#">Learn More</a>
+            <a class="t-on-color-bg" href="index.html">Learn More</a>
         </div>
         
     </div>
@@ -104,7 +103,10 @@
         <img class="social-media-card" src="images/social-media/facebook-icon.jpg" alt="facebook icon">
         <img class="social-media-card" src="images/social-media/twitter-icon.jpg" alt="twitter icon">
         <img class="social-media-card" src="images/social-media/instgram-icon.jpg" alt="instagram icon">
-        <p class="t-on-color-bg">&copy; copywrite 2023</p>
+        <p id="copyWrite"></p>
+        <p class="highlight" id="lastModified">last modified</p>
     </footer>
+    <script src="scripts/lastModified.js"></script>
+    <script src="scripts/dynamic-menu.js"></script>
 </body>
 </html>

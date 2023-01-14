@@ -41,7 +41,6 @@
         font-size: 2rem;
     }
     #logo {
-        align-self: left;
         width: 4rem;
         height: 2rem;
     }
@@ -61,15 +60,5 @@
     
     #content {
         grid-template-columns: repeat(4, 1fr);
-    };
-    .bar {
-        /* display: none; */
-        grid-column: 1/5;
     }
-}
-.spotlight{ 
-    grid-column: 3/5;
-}
-.weather {
-    grid-column: 1/3;
 }
