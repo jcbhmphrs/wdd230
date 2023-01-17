@@ -44,19 +44,33 @@ header {
     border-radius: 5px;
     box-shadow: 5px 5px 15px black;
 }
-
+main {
+    position: relative;
+} 
+#hero-title {
+    font-size: 2rem;
+    position: absolute;
+    left: 25%;
+    top: 15%;
+    width: 20rem;
+    text-align: center;
+    background: radial-gradient(rgba(255, 255, 255, 0.3), rgba(113, 127, 193, 0.3));
+    border: 1px solid black;
+    padding: 0.5rem;
+    
+}
 h1 {
     margin:auto;
     text-align: center;
     padding: 10px;
 }
 
-main {
+#content {
     display: flex;
     flex-direction: column;
-    margin: 1rem auto;
+    margin: 0px;
     align-items: center;
-    padding: 20px;
+    padding: 0px;
 }
 
 h2 {
@@ -78,7 +92,12 @@ h3 {
     margin: 1rem;
     min-width: 400px;
 }
-
+#project {
+    text-align: center;
+}
+#information {
+    text-align: center;
+}
 li {
     list-style-type: none;
 }
