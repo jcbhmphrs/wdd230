@@ -47,17 +47,20 @@ header {
 main {
     position: relative;
 } 
-#hero-title {
-    font-size: 2rem;
+/* picture {
+    position: relative;
+} */
+.hero-title {
+    font-size: 1.5rem;
     position: absolute;
-    left: 25%;
-    top: 15%;
-    width: 20rem;
+    width: 25%;
+    left: 0;
+    top: 0;
     text-align: center;
     background: radial-gradient(rgba(255, 255, 255, 0.3), rgba(113, 127, 193, 0.3));
     border: 1px solid black;
-    padding: 0.5rem;
-    
+    padding: 0 1.5rem;
+    z-index: 10;
 }
 h1 {
     margin:auto;
@@ -110,6 +113,14 @@ a {
     text-decoration: none;
     color: var(--accent-color);
     padding: 5px;
+}
+iframe {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+
 }
 
 footer {

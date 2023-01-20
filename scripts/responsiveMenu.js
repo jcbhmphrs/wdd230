@@ -4,13 +4,32 @@ var closeMenu = true;
 
 menubutton.addEventListener("click", () => {
 	if (closeMenu) {
-		menubutton.src = 'images/close-menu-icon.png';
+		menubutton.src = 'images/icons-reso/close-menu-icon.png';
 		closeMenu = false;
 	} else {
-		menubutton.src = 'images/menu-icon.png';
+		menubutton.src = 'images/icons-reso/menu-icon.png';
 		closeMenu = true;
 	}
 	menuitems.forEach((item) => item.classList.toggle("open"));
 	menubutton.classList.toggle("close");
 });
 
+
+
+//responsive
+
+
+titleCard = document.querySelector('.hero-title')
+
+function reName() {
+	var w = window.innerWidth;
+	if (w <= 400) {
+		titleCard.textContent = 'Kyiv Temple'; 
+	} else if (w <= 960) {
+		titleCard.textContent = 'Helsinki Temple';
+	} else {
+		titleCard.textContent = 'Brigham City Temple';
+	}
+};
+window.onresize = reName;
+reName();

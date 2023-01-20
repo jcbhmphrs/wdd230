@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
-@media only screen and (min-width: 750px){
+@media only screen and (min-width: 600px){
     #profile-picture {
         margin-left: 5%;
     }
@@ -24,18 +24,11 @@
         margin: 0 auto;
         margin-bottom: 5rem;
     }
-    #hero-image {
+    .hero-image {
         position: relative;
         width: 100%;
     }
-    #hero-title {
-        left: 10%;
-        top: 25%;
-    }
-    iframe {
-        border: 3px solid black;
-        margin: 0 auto;
-    }
+    
     h2 {
         text-align: center;
         grid-column: 1/3;
