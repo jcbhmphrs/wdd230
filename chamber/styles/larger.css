@@ -61,4 +61,31 @@
     #content {
         grid-template-columns: repeat(4, 1fr);
     }
+
+    
+    /* Discovery page css rules */
+
+    #discovery-grid {
+        display: grid;
+        grid-template-columns: 30% 70%;
+    }
+    #sidebar {
+        background-color: var(--secondary);
+    }
+    .stats {
+        padding: 1rem;
+    }
+    .upcoming-events-discovery {
+        padding: 0;
+    }
+
+    .local-interest {
+        border: solid 2px black;
+        border-radius: 15px;
+        width: auto;
+        height: auto;
+    }
+    .local-interest:hover {
+        transform: scale(1.1);
+    }
 }

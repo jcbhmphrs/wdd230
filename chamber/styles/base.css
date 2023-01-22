@@ -50,6 +50,9 @@ nav {
 #search {
     display: none;
 }
+#stamp {
+    padding: 2rem;
+}
 #logo {
     margin-top: 0.5rem;
     height: 65px; width: 170px;
@@ -70,15 +73,15 @@ nav {
 }
 /* header/hero image of website */
 header{
+    max-height: 50rem;
     position: relative;
     display: flex;
 }
 #hero-image {
     position: relative;
-    width: 100%; height: 100%;
+    width: 100%;
 }
 #curtain {
-    justify-items: center;
     position: absolute;
     top: 0; left: 0;
     height: 100%; width: 100%;
@@ -98,6 +101,7 @@ header{
 }
 /* upcoming events section of website */
 #upcomingEvents {
+    background-color: var(--accent1b);
     column-gap: 15%;
     padding: 1.5rem;
     align-items: center;
@@ -133,6 +137,13 @@ header{
 .content-box {
     margin-bottom: 1rem;
 }
+
+.weather {
+    background-color: var(--accent1b);
+    height: 10rem;
+    margin: 0 15rem 0 15rem;
+    
+}
 .content-card{
     clip-path: circle(100%);
     height: 7rem;
@@ -140,25 +151,30 @@ header{
 }
 /* call to action section of the website */
 #call-to-action {
+    position: relative;
     align-items: center;
     display: flex;
     flex-direction: column;
 }
 #statment {
-    width: 100%;
+    position: relative;
+    width: 100%; height: 13rem;
     padding: 1rem;
     font-size: 24px;
-    height: 50%;
     background-color: var(--secondary);
 }
 #divider-image {
+    top: 10rem;
+    clip-path: ellipse();
+    background-color: white;
+    position: absolute;
     padding: 2rem;
     z-index: 10;
 }
 #learn-more {
-    padding: 1rem;
-    width: 100%;
-    height: 50%;
+    position: relative;
+    padding-top: 7rem;
+    width: 100%; height: 7rem;
     background-color: var(--primary);
 }
 /* footer section of website */
@@ -182,4 +198,23 @@ footer {
 }
 .close {
     display: none;
+}
+
+
+/* Discovery page css rules */
+
+#discovery-grid {
+    display: flex;
+    flex-direction: column;
+}
+#sidebar {
+    background-color: var(--secondary);
+}
+.stats {
+    padding: 1rem;
+}
+
+.local-interest {
+    width: 60% ;
+    height: 60%;
 }
