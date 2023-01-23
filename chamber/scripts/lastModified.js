@@ -12,7 +12,9 @@ document.getElementById('copyWrite').innerHTML = `&copy ${date.getFullYear()} Ja
 
 let today = new Date();
 let dayTracker = document.querySelector('#dayTracker');
+// let lastVisited = localStorage.getItem('lastVisited');
 let lastVisited = new Date(localStorage.getItem('lastVisited'));
+
 
 if (lastVisited === null) {
     dayTracker.textContent = `This is your first visit!`;
