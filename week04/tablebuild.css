@@ -1,0 +1,35 @@
+* {
+    text-align: center;
+}
+th {
+    background: coral;
+}
+table {
+    border-spacing: 0;
+    margin: 25px auto;
+    border-collapse: collapse;
+}
+
+tr:first-child th {
+    color: white;
+    background: black;
+    height: 50px;
+}
+th:first-child {
+    border-top: none;
+    background: black;
+}
+
+tbody > tr:nth-child(even) {
+    background: rgb(255, 215, 201);
+}
+
+caption {
+    margin-top: 25px;
+    caption-side: bottom;
+    font-size: 0.8rem;
+}
+th, td {
+    border: 1px solid black;
+    padding: 7px 15px;
+}
