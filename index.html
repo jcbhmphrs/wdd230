@@ -78,7 +78,36 @@
             </section>
         </div>
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2987.9464662687833!2d-112.01860988428419!3d41.50543489663099!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87537a951f70c9a5%3A0xb5d3673f571e38f!2sBrigham%20City%20Utah%20Temple!5e0!3m2!1sen!2sus!4v1673991067003!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        
+        <section class="card">
+            <h3> Contact Me</h3>
+            <form method='get' action="thanks.html">
+                <fieldset>
+                    <legend>Your Info</legend>
+                    <label class="top">Your Name*<input type="text" name="fname" placeholder="First, Last" required></label>
+                    <label class="top">Your Email*<input type="email" name="email" placeholder="example@example.com" required></label>
+                    <!-- <label class="top">Page Rating<input type="range" name="rating" required></label> -->
+                    <label class="top">Password*<input type="password" name="password1" placeholder="" required></label>
+                    <label class="top">Verify Password*<input type="password" name="password2" placeholder="" required></label>
+                    <label class="sbs" for="r">Rate Your Experience:  <span id="rating"></span></label>
+                    <div class="rangecontainer">
+                        <input type="range" min="1" max="10" id="r" name="r" list="ten" required="required">
+                        <div class="ratinglabels">
+                            <span class="ratevalue">1</span>
+                            <span class="ratevalue">2</span>
+                            <span class="ratevalue">3</span>
+                            <span class="ratevalue">4</span>
+                            <span class="ratevalue">5</span>
+                            <span class="ratevalue">6</span>
+                            <span class="ratevalue">7</span>
+                            <span class="ratevalue">8</span>
+                            <span class="ratevalue">9</span>
+                            <span class="ratevalue">10</span>
+                        </div>
+                    </div>
+                </fieldset>
+                <input class="submitButton" type="submit" value=" SUBMIT">
+            </form>
+        </section>
     </main>
     <footer>
         <p id="copyWrite"></p>
