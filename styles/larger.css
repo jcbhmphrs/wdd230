@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
-@media only screen and (min-width: 600px){
+@media only screen and (min-width: 765px){
     #profile-picture {
         margin-left: 5%;
     }
@@ -48,5 +48,18 @@
     }
     #information p {
         text-align: center;
-    }    
+    }   
+    
+    /* ++++++++++++++++form++++++++++++++++++ */
+    form fieldset {
+        display: flex;
+        margin: 2rem 2rem;
+        border: 1px solid var(--primary-color);
+        border-radius: 7px;
+        padding: 2rem 5%;
+    }
+    /* ++++++++table++++++++++ */
+    #table-div {
+        margin: 0 auto;
+    }
 }

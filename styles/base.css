@@ -3,7 +3,7 @@
 :root {
     --primary-color: #001d2c;
     --secondary-color: #ffffff;
-    --accent-color: #92166F;
+    --accent-color: #92166f;
     --dark-mode-accent: #1c0040d7;
     --dark-mode-bg: #090038d9;
     --dark-mode-text: #ffa844;
@@ -230,7 +230,7 @@ form label.sbs {
 
 form input.submitButton {
     border: none;
-    background-color: #9c2c13;
+    background-color: #92166f;
     color: white;
     border-radius: 1rem;
     padding: 0.75rem 1.5rem;
@@ -240,25 +240,22 @@ form input.submitButton {
 }
 
 form label.top input:required {
-    border-bottom: #ff0000 solid 6px;
+    border-bottom: #92166f solid 6px;
 }
 
 form label.top input:required:valid {
-    border-bottom: #008000 solid 6px;
+    border-bottom: #00a200 solid 6px;
 }
 
 
-#r {
+#form-rating {
     -webkit-appearance: none;
     background: linear-gradient(to right, #ff0000 0%, #ffa411 25%, #fbff7c 75%, #6aff6a 100%);
     border: solid 1px var(--primary-color);
     border-radius: 8px;
-    height: 7px;
-    width: 80%; max-width: 16rem;
-    outline: none;
-    transition: background 450ms ease-in;
-    margin-bottom: 0;
-	padding-bottom: 0;
+    height: 6px;
+    width: 90%; max-width: 18rem;
+    /* transition: background 450ms ease-in; */
 }
 
 .ratevalue {
@@ -282,4 +279,39 @@ form label.top input:required:valid {
 	color: var(--primary-color);
 }
 
+
+
+/* -----------table----------------- */
+#table-div {
+    padding: 0;
+    width: 300px;
+    margin: 0;
+}
+table{
+    display: none;
+	border-collapse: collapse;
+    margin: 2rem auto;
+}
+tr:first-child th {
+    
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+th {
+    border: solid 1px var(--primary-color);
+    /* border: 1px solid var(--secondary-color); */
+	padding: 7px 15px;
+    color: white;
+    background-color: var(--accent-color);
+    
+}
+td {
+    border: solid 1px var(--primary-color);
+    color: black;
+    padding: 12px;
+}
+
+tbody tr:nth-child(even) {
+	background-color: rgba(146, 22, 111, 0.2) ;
+}
 

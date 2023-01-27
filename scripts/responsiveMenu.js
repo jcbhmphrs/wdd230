@@ -36,7 +36,7 @@ reName();
 
 //=============================  Rating Bar  ===============================
 const rating = document.getElementById("rating");
-const rangevalue = document.getElementById("r");
+const rangevalue = document.getElementById("form-rating");
 
 function displayRatingValue() {
     rating.innerHTML = rangevalue.value;

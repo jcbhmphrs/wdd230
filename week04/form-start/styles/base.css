@@ -110,7 +110,7 @@ form input.submitButton {
 }
 
 form label.top input:required {
-    border-left: red solid 6px;
+    border-left: rgb(104, 0, 0) solid 6px;
 }
 
 form label.top input:required:valid {
