@@ -46,12 +46,11 @@
         <picture>
             <source class="hero-image" media="(max-width: 400px)" srcset="images/temple-images/kyiv_ukraine_temple.webp">
             <source class="hero-image" media="(max-width: 960px)" srcset="images/temple-images/helsinki_finland_temple.webp">
-            <img class="hero-image" src="images/temple-images/brigham_city_temple.webp" loading="lazy" width="100%" alt="hero image">
-            <div class="hero-title">
-                <p></p>
-            </div>
+            <img class="hero-image" src="images/temple-images/brigham_city_temple.webp" loading="lazy" alt="hero image">
         </picture>
-        
+        <div class="hero-title">
+            <p></p>
+        </div>
         <div id="content">
             <h2>WDD 230: Course Activity Portal</h2>
             <section id='learning-activities' class="card">
@@ -82,16 +81,16 @@
             <h3> Contact Me</h3>
             <form>
                 <fieldset>
-                    <div>
-                        <legend>Your Info</legend>
+                    <legend>Your Info</legend>
+                    <div>    
                     <label class="top">Your Name*<input id="form-name" type="text" name="fname" placeholder="First, Last" required></label>
                     <label class="top">Your Email*<input id="form-email" type="email" name="email" placeholder="example@example.com" required></label>
                     <label class="top">Username*<input id="form-username" type="password" name="username1" placeholder="5-12 char ( AZ123az!@# )" pattern="(?=.*\d)(?=.*[^A-Za-z0-9])(?=.*[a-z])(?=.*[A-Z]).{5,12}" required></label>
                     <label class="top">Verify Username*<input type="password" name="username2" placeholder="re-enter username" required></label>
-                    <label class="sbs" for="r">Rate Your Experience:  <span id="rating"></span></label>
+                    <label class="sbs" for="form-rating">Rate Your Experience:  <span id="rating"></span></label>
                     <div class="rangecontainer">
-                        <input type="range" min="1" max="10" id="form-rating" name="r" list="ten" required="required" value="5">
-                        <div class="ratinglabels">
+                        <input type="range" min="1" max="10" id="form-rating" name="r" list="ten" value="5">
+                        <datalist class="ratinglabels">
                             <span class="ratevalue">1</span>
                             <span class="ratevalue">2</span>
                             <span class="ratevalue">3</span>
@@ -102,7 +101,7 @@
                             <span class="ratevalue">8</span>
                             <span class="ratevalue">9</span>
                             <span class="ratevalue">10</span>
-                        </div>
+                        </datalist>
                     </div>
                     </div>
                     <div id="table-div">
