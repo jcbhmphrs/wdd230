@@ -8,6 +8,7 @@
     --accent2: #331e38;
 
 }
+
 /* preliminary css rulesets fo rwebsite */
 body {
     min-width: 375px;
@@ -78,15 +79,15 @@ header{
     display: flex;
 }
 #hero-image {
+    /* z-index: 10; */
     position: relative;
-    width: 100%;
+    /* width: 100%; */
 }
 #curtain {
     position: absolute;
     top: 0; left: 0;
     height: 100%; width: 100%;
-    /* clip-path: polygon(0% 0%, 50% 0%, 100% 100%, 0% 100% ); */
-    width: 30%; 
+    /* clip-path: polygon(0% 0%, 50% 0%, 100% 100%, 0% 100% ); */ 
     background-color: rgb(207, 50, 48, 0.6);
 }
 .t-on-color-bg{
@@ -217,4 +218,79 @@ footer {
 .local-interest {
     width: 60% ;
     height: 60%;
+}
+/* ++++++++++++++ JOIN FORM +++++++++++++++ */
+#join-grid {
+    display: flex;
+    flex-direction: column;
+}
+#benefits {
+    padding: 1rem 5rem;
+    background-color: var(--secondary);
+    margin: 1rem 2rem;
+}
+#level-one {
+    color: rgb(222, 197, 133);
+}
+#level-two {
+    color: rgb(207, 207, 207);
+}
+#level-three {
+    color: rgb(246, 255, 0);
+}
+#join-form {
+    /* max-width:30rem; */
+    margin: 1rem 2rem;
+}
+#join-form label.top, #join-form div  {
+    display: block;
+    padding-top: 1rem;
+    color: var(--accent2);
+    font-size: 0.8rem;
+}
+#join-form > fieldset:nth-child(3) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+#join-submit {
+    margin-top: 2rem;
+    width: 50%;
+    font-size: 1.25rem;
+    height: 2rem;
+    max-width: 10rem;
+}
+#join-form > fieldset {
+    display: block;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+li {
+    list-style: none;
+}
+/* -------------------------------Directory ----------------- */
+.dir-menu {
+    margin: 1rem;
+}
+
+.grid-mode{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 5px;
+}
+.grid-mode ul {
+    padding: 0;
+}
+
+.grid-mode section {
+    margin: 0.25rem;
+    box-shadow: 5px 5px 15px black;
+}
+
+
+.list-mode section {
+    margin: 0 2rem;
+    display: flex;
+    padding: 1rem;
 }

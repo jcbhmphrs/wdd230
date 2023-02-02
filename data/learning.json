@@ -1,0 +1,112 @@
+{ 
+  "assignments": [
+    {
+      "label":"Week 01",
+      "links": [
+        {
+          "tag":"Holy Grail",
+          "href":"week01/holygrail.html"
+        },
+        {
+          "tag":"Media Query",
+          "href":"week01/media_query.html"
+        },
+        {
+          "tag":"Pen",
+          "href":"https://codepen.io/jcbhmphrs/pen/bGjexYN"
+        },
+        {
+          "tag":"Site Plan",
+          "href":"week01/chamber-site-plan.html"
+        } 
+        ]},
+    {
+      "label":"Week 02",
+      "links": [
+        {
+          "tag":"Design Page",
+          "href":"week02/design.html"
+        },
+        {
+          "tag":"Responsive Menu",
+          "href":"https://codepen.io/jcbhmphrs/pen/GRBWpBj?editors=1100"
+        },
+        {
+          "tag":"BOM Top 10",
+          "href":"week02/bom.html"
+        }
+      ]},
+    {
+      "label":"Week 03",
+      "links": [
+        {
+          "tag":"WebP Image",
+          "href":"week03/images/webp/landscape_smaller.webp"
+        },
+        {
+          "tag":"Lazy Load",
+          "href":"week03/lazyload.html"
+        },
+        {
+          "tag":"Pen",
+          "href":"https://codepen.io/jcbhmphrs/pen/vYaedKG?editors=1100"
+        },
+        {
+          "tag":"Local Storage",
+          "href":"week03/bom.html"
+        } 
+        ]},
+    {
+      "label":"Week 04",
+      "links": [
+        {
+          "tag":"Pen",
+          "href":"https://codepen.io/jcbhmphrs/pen/Yzjedqr"
+        },
+        {
+          "tag":"Combinators",
+          "href":"week04/images/Screenshot1-23.png"
+        },
+        {
+          "tag":"Table Build",
+          "href":"week04/tablebuild.html"
+        },
+        {
+          "tag":"HTML Forms",
+          "href":"week04/form-start/index.html"
+        } 
+        ]},
+    {
+      "label":"Week 05",
+      "links": [
+        {
+          "tag":"Pen",
+          "href":"https://codepen.io/hal22036/pen/mdjGVKE"
+        },
+        {
+          "tag":"JSON",
+          "href":"week05/new-ward-members.json"
+        },
+        {
+          "tag":"Prophets",
+          "href":"week05/prophets.html"
+        },
+        {
+          "tag":[],
+          "href":[]
+        } 
+        ]},
+    {
+      "label":"Week 06",
+      "links": [
+        {
+          "tag":[],
+          "href":[]
+        },
+        {
+          "tag":[],
+          "href":[]
+        }
+        ]}
+  ]
+}

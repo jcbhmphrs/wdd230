@@ -1,0 +1,200 @@
+{
+    "companies": [
+        {
+            "name": "Lorem",
+            "address": [{
+                "street": "200n 115e",
+                "city" : "Logan",
+                "state" : "UT",
+                "zip": "62782"
+            }],
+            "phone" : "1(800)123-4567",
+            "website" : "businesswebsite.com",
+            "image":"images/business-logos/github-logo1.png",
+            "membership": "Gold"
+        },
+        {
+            "name": "Nyther",
+            "address": [{
+                "street": "200n 115e",
+                "city" : "Logan",
+                "state" : "UT",
+                "zip": "62782"
+            }],
+            "phone" : "1(800)123-4567",
+            "website" : "businesswebsite.com",
+            "image":"images/business-logos/github-logo1.png",
+            "membership": "Bronze"
+        },
+        {
+            "name": "Lopard",
+            "address": [{
+                "street": "200n 115e",
+                "city" : "Logan",
+                "state" : "UT",
+                "zip": "62782"
+            }],
+            "phone" : "1(800)123-4567",
+            "website" : "businesswebsite.com",
+            "image":"images/business-logos/github-logo1.png",
+            "membership": "Bronze"
+        },
+        {
+            "name": "Cherry",
+            "address": [{
+                "street": "200n 115e",
+                "city" : "Logan",
+                "state" : "UT",
+                "zip": "62782"
+            }],
+            "phone" : "1(800)123-4567",
+            "website" : "businesswebsite.com",
+            "image":"images/business-logos/github-logo1.png",
+            "membership": "Gold"
+        },
+        {
+            "name": "Hickorieah",
+            "address": [{
+                "street": "200n 115e",
+                "city" : "Logan",
+                "state" : "UT",
+                "zip": "62782"
+            }],
+            "phone" : "1(800)123-4567",
+            "website" : "businesswebsite.com",
+            "image":"images/business-logos/github-logo1.png",
+            "membership": "Bronze"
+        },
+        {
+            "name": "Northman inc.",
+            "address": [{
+                "street": "200n 115e",
+                "city" : "Logan",
+                "state" : "UT",
+                "zip": "62782"
+            }],
+            "phone" : "1(800)123-4567",
+            "website" : "businesswebsite.com",
+            "image":"images/business-logos/github-logo1.png",
+            "membership": "Silver"
+        },
+        {
+            "name": "Storage",
+            "address": [{
+                "street": "200n 115e",
+                "city" : "Logan",
+                "state" : "UT",
+                "zip": "62782"
+            }],
+            "phone" : "1(800)123-4567",
+            "website" : "businesswebsite.com",
+            "image":"images/business-logos/github-logo1.png",
+            "membership": "Silver"
+        },
+        {
+            "name": "Freedry",
+            "address": [{
+                "street": "200n 115e",
+                "city" : "Logan",
+                "state" : "UT",
+                "zip": "62782"
+            }],
+            "phone" : "1(800)123-4567",
+            "website" : "businesswebsite.com",
+            "image":"images/business-logos/github-logo1.png",
+            "membership": "Bronze"
+        },
+        {
+            "name": "Bikets",
+            "address": [{
+                "street": "200n 115e",
+                "city" : "Logan",
+                "state" : "UT",
+                "zip": "62782"
+            }],
+            "phone" : "1(800)123-4567",
+            "website" : "businesswebsite.com",
+            "image":"images/business-logos/github-logo1.png",
+            "membership": "Silver"
+        },
+        {
+            "name": "Etranra Space",
+            "address": [{
+                "street": "200n 115e",
+                "city" : "Logan",
+                "state" : "UT",
+                "zip": "62782"
+            }],
+            "phone" : "1(800)123-4567",
+            "website" : "businesswebsite.com",
+            "image":"images/business-logos/github-logo1.png",
+            "membership": "Gold"
+        },
+        {
+            "name": "Frouteey",
+            "address": [{
+                "street": "200n 115e",
+                "city" : "Logan",
+                "state" : "UT",
+                "zip": "62782"
+            }],
+            "phone" : "1(800)123-4567",
+            "website" : "businesswebsite.com",
+            "image":"images/business-logos/github-logo1.png",
+            "membership": "Bronze"
+        },
+        {
+            "name": "Souest tikels",
+            "address": [{
+                "street": "200n 115e",
+                "city" : "Logan",
+                "state" : "UT",
+                "zip": "62782"
+            }],
+            "phone" : "1(800)123-4567",
+            "website" : "businesswebsite.com",
+            "image":"images/business-logos/github-logo1.png",
+            "membership": "Bronze"
+        },
+        {
+            "name": "Empa Spage",
+            "address": [{
+                "street": "200n 115e",
+                "city" : "Logan",
+                "state" : "UT",
+                "zip": "62782"
+            }],
+            "phone" : "1(800)123-4567",
+            "website" : "businesswebsite.com",
+            "image":"images/business-logos/github-logo1.png",
+            "membership": "Silver"
+        },
+        {
+            "name": "Prod's Moune",
+            "address": [{
+                "street": "200n 115e",
+                "city" : "Logan",
+                "state" : "UT",
+                "zip": "62782"
+            }],
+            "phone" : "1(800)123-4567",
+            "website" : "businesswebsite.com",
+            "image":"images/business-logos/github-logo1.png",
+            "membership": "Bronze"
+        },
+        {
+            "name": "Loutes",
+            "address": [{
+                "street": "200n 115e",
+                "city" : "Logan",
+                "state" : "UT",
+                "zip": "62782"
+            }],
+            "phone" : "1(800)123-4567",
+            "website" : "businesswebsite.com",
+            "image":"images/business-logos/github-logo1.png",
+            "membership": "Gold"
+        }
+    ]
+
+}

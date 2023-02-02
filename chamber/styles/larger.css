@@ -88,4 +88,11 @@
     .local-interest:hover {
         transform: scale(1.1);
     }
+
+
+    /* _______________join us form_______________ */
+    #join-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 }

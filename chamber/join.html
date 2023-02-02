@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name = "description" content="Home CVCC Cache Valley Chamber of Commerce - platform for economic progression">
+    <meta name="author" content="Jacob Humphreys">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="icon" href="images/favicon.ico">
+    <meta property="og:title" content="Cache Valley Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://i.pinimg.com/originals/44/46/70/4446706a78d5c887152df6ada62425e3.jpg">
+    <meta property="og:url" content="https://jcbhmphrs.github.io/wdd230/chamber/index.html">
+    <title>Home - CVCC - Cache Valley Chamber of Commerce</title>
+</head>
+<body>
+    <nav>
+        <div id="stamp">
+            <h1>Cache Valley<br>Chamber of Commerce</h1>
+            <!-- <img id="logo" src="images/chamber-logo.png" alt="chamber logo"> -->
+        </div>
+        <div id="sticky-nav">
+            <label for="search"></label>
+            <input type="search" id="search" placeholder="search">
+            <img id='hamburger' src="images/menu-icon.png" alt="menu-icon">
+            <a class="menu-item" href="index.html">Home</a>
+            <a class="menu-item" href="discover.html">Discover</a>
+            <a class="menu-item" href="directory.html">Directory</a>
+            <a class="menu-item" href="join.html">Join</a>
+        </div>
+    </nav>
+    <header>
+
+        <img id="hero-image" src="images/hero-slides/cache-valley-stock-5.webp" alt="hero image">
+        <div id="curtain">
+            <div class="curtain-text">
+                <h1 class="t-on-color-bg">Join<br>The Family</h1>
+                <a href="join.html" >Join</a>
+            </div>
+        </div>
+    </header> 
+    <main id="join-grid"> 
+        <div id="benefits">
+            <h2 class="t-on-color-bg">Membership Level Benefits</h2>
+                <h3 class="t-on-color-bg" id="free">Free Membership</h3>
+                    <p class="t-on-color-bg">Free memberships include a subscription to the monthly Chamber Newsletter, and pending approval, an invite to the semi-annual business growth seminar, with speakers and forums that you can attend to learn how to boost your business growth.</p>
+                <h3 class="t-on-color-bg" id="level-one">Level One Membership</h3>
+                        <p class="t-on-color-bg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum ex excepturi, non iusto tenetur deserunt culpa. Eaque modi deserunt unde, libero, labore excepturi temporibus error quos incidunt ipsa vero possimus?</p>
+                <h3 class="t-on-color-bg" id="level-two">Level Two Membership</h3>
+                    <p class="t-on-color-bg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo dolor sit iste saepe quisquam nulla temporibus sed maiores. Incidunt fuga animi voluptatem cupiditate dolorem optio quam nulla amet, ipsa natus!</p>
+                <h3 class="t-on-color-bg" id="level-three">Level Three Membership</h3>
+                    <p class="t-on-color-bg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, vitae cupiditate. Rerum eveniet corporis culpa! Consectetur autem consequatur excepturi, quia eius magni atque placeat, exercitationem odio praesentium laboriosam, natus amet.</p>
+                    <!-- <p class="t-on-color-bg">Please message us for any further information. NLVchamberofcommerce@infoNV.com</p> -->
+        </div>
+
+        <form id="join-form" method='get' action="thankyou.html">  
+            <h2 id="joinus">Join Us!</h2>
+            <fieldset>
+                <legend>Membership Levels & Annual Fees</legend>
+                <label class="sbs"><input type="radio" name="audience" value="beginner">Free Non-Profit</label>
+                <label class="sbs"><input type="radio" name="audience" value="intermediate">$215 Level One</label>
+                <label class="sbs"><input type="radio" name="audience" value="advanced">$350 Level Two</label>
+                <label class="sbs"><input type="radio" name="audience" value="advanced">$525 Level Three</label> 
+            </fieldset>
+
+            <fieldset>
+                <legend>Applicant Information</legend>
+                <label class="top">First Name*<input type="text" name="fname" placeholder="First Name" required></label>
+                <label class="top">Last Name*<input type="text" name="lname" placeholder="Last Name" required></label>
+                <label class="top">Title<input type="text" name="title" pattern="[a-zA-Z\-\s]{7,}" placeholder="Business Position"></label>
+                <label class="top">Email*<input type="email" name="email" placeholder="someone@gmail.com" required></label>
+                <label class="top">Cell Phone Number<input type="tel" name="phone" placeholder="1235551234" required></label>
+                <label class="top">Business Name<input type="text" name="fname" placeholder="My Business" required></label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Business Description</legend>
+                <label><textarea id="business" placeholder="Describe your business"></textarea></label>
+            </fieldset>
+            <input id="join-submit" type="submit" value="Join Now" class="submitBtn">
+        </form>    
+        
+    </main>
+
+    <footer>
+        <img class="social-media-card" src="images/social-media/facebook-icon.jpg" alt="facebook icon">
+        <img class="social-media-card" src="images/social-media/twitter-icon.jpg" alt="twitter icon">
+        <img class="social-media-card" src="images/social-media/instgram-icon.jpg" alt="instagram icon">
+        <p id="copyWrite"></p>
+        <p class="highlight" id="lastModified">last modified</p>
+    </footer>
+    <script src="scripts/lastModified.js"></script>
+    <script src="scripts/dynamic-menu.js"></script>
+</body>
+</html>

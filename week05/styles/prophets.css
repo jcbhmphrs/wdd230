@@ -1,0 +1,46 @@
+
+body {
+    text-align: center;
+    align-content: center;
+}
+
+header {
+    background-color: white;
+    width: 100%;
+    max-width: 100%;
+}
+
+h1, h2 {
+    color: rgb(15, 65, 28);
+}
+
+
+main {
+    box-shadow: 0 0 30px rgb(77, 77, 77);
+    border: rgb(61, 61, 61);
+    background-color: rgb(87, 87, 140);
+    padding: 1rem;
+
+}
+section {
+    box-sizing: border-box;
+    display: block;
+    background-color: rgb(90, 179, 136);
+    border: 1px solid black;
+}
+
+img {
+    margin-top: 1rem;
+    height: auto;
+    box-shadow: 0 0 10px 2px rgba(0,0,0,.8);
+}
+
+p {
+    margin: 2.5px;
+}
+
+#cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 5px;
+}
