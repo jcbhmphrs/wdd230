@@ -8,7 +8,7 @@ async function apiFetch() {
     const response = await fetch(url);
     if (response.ok) {
       const data = await response.json();
-      // console.log(data); 
+      console.log(data); 
       displayResults(data); 
     } else {
         throw Error(await response.text());
@@ -16,7 +16,7 @@ async function apiFetch() {
   } catch (error) {
       console.log(error);
   }
-}
+};
 
 apiFetch();
 

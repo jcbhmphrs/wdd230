@@ -17,6 +17,9 @@
     #hamburger {
         display: none;
     }
+    #hero-image {
+        max-width: 1080px;
+    }
     .menu-item {
         font-family: 'Playfair Display', serif;
         color: var(--primary);
@@ -80,8 +83,6 @@
     }
 
     .local-interest {
-        border: solid 2px black;
-        border-radius: 15px;
         width: auto;
         height: auto;
     }
@@ -95,4 +96,16 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
+}
+
+/* ----------------------------weather spotlight------------- */
+#weather-spotlight {
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 60px 1fr;
+}
+
+.spotlight {
+    grid-column: 3/4;
 }

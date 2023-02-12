@@ -16,11 +16,10 @@
     <title>Home - CVCC - Cache Valley Chamber of Commerce</title>
 </head>
 <body>
+    <div id="stamp">
+        <h1>Cache Valley<br>Chamber of Commerce</h1>
+    </div>
     <nav>
-        <div id="stamp">
-            <h1>Cache Valley<br>Chamber of Commerce</h1>
-            <!-- <img id="logo" src="images/chamber-logo.png" alt="chamber logo"> -->
-        </div>
         <div id="sticky-nav">
             <label for="search"></label>
             <input type="search" id="search" placeholder="search">
@@ -31,16 +30,16 @@
             <a class="menu-item" href="join.html">Join</a>
         </div>
     </nav>
-        <header>
-    
-            <img id="hero-image" src="images/hero-slides/cache-valley-stock-5.webp" alt="hero image">
-            <div id="curtain">
-                <div class="curtain-text">
-                    <h1 class="t-on-color-bg">We<br>Build<br>Jobs</h1>
-                    <a href="join.html" >Join</a>
-                </div>
+    <div id="banner"><a href="index.html" target="_blank">Click here to learn about this week's Chamber Meet and Greet</a></div>
+    <header>
+        <img id="hero-image" width="1080" height="570" src="images/hero-slides/cache-valley-stock-5.webp" alt="hero image">
+        <div id="curtain">
+            <div class="curtain-text">
+                <h1 class="t-on-color-bg">We<br>Build<br>Jobs</h1>
+                <a href="join.html" >Join</a>
             </div>
-        </header>
+        </div>
+    </header>
     <main> 
         <div id="upcomingEvents">
             <h2>Upcoming <br> Events</h2>
@@ -72,20 +71,24 @@
                 <img class="content-card" src="images/content/local_government.webp" alt="local gov image">
             </div>
         </div>
-        <section class="content-box weather">
-            <h2>Weather</h2>
-            <p>🌦 59°</p>
-        </section>
-        <div class="content-box spotlight">
-            <section>
-                <h3>Company One</h3>
-                <p>spotlight</p>
-                <h3>Company Two</h3>
-                <p>spotlight</p>
-                <h3>Company Three</h3>
-                <p>spotlight</p>
+        <div id="weather-spotlight">
+            <section id="weather-element" class="content-box weather">
+                <h3>Weather</h3>
+                <div id="current-temp"></div>
             </section>
+            <div class="content-box spotlight">
+                <h2>Gold / Silver membership spotlights:</h2>
+                <section>
+                    <h3 id="spotlight-one">s1</h3>
+                    <p>Asperiores nihil tempore fugiat, eos quod in id architecto mollitia accusamus quo dicta itaque earum ut quos alias, laboriosam facilis animi voluptate!</p>
+                    <h3 id="spotlight-two">s2</h3>
+                    <p>Magnam provident dolores, nulla distinctio quas mollitia iusto quae, similique expedita veritatis nam itaque vero ex praesentium ducimus autem quia numquam. Quis!</p>
+                    <h3 id="spotlight-three">s3</h3>
+                    <p>Eos, a labore cumque quod magni voluptatibus soluta eaque ea itaque adipisci enim quaerat corrupti incidunt quia eius optio pariatur aut architecto?</p>
+                </section>
+            </div>
         </div>
+        
     </main>
     <div id="call-to-action">
         <div id="statment">
@@ -107,6 +110,8 @@
         <p id="copyWrite"></p>
         <p class="highlight" id="lastModified">last modified</p>
     </footer>
+    <script src="scripts/weather.js"></script>
+    <script src="scripts/spotlight.js"></script>
     <script src="scripts/lastModified.js"></script>
     <script src="scripts/dynamic-menu.js"></script>
 </body>

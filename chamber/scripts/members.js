@@ -32,7 +32,8 @@ function displayGridMembers(data) {
         phone.textContent = `Phone Number : ${element.phone}`
         companyName.textContent = element.name; 
         street.textContent = element.address[0].street;
-        city.textContent = `${element.address[0].city}, ${element.address[0].state} ${element.address[0].zip}`;
+        city.textContent = `${element.address[0].city}, ${element.address[0].state}
+         ${element.address[0].zip}`;
         membership.textContent = `Membership: ${element.membership}`;
         logo.setAttribute('src', element.image);
         logo.setAttribute('alt', element.name);
