@@ -30,4 +30,7 @@ function getThree() {
   spotOne.textContent = spotlights[0].name;
   spotTwo.textContent = spotlights[1].name;
   spotThree.textContent = spotlights[2].name;
+  spotOne.classList.add("t-on-color-bg");
+  spotTwo.classList.add("t-on-color-bg");
+  spotThree.classList.add("t-on-color-bg");
 };
