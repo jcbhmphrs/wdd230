@@ -49,7 +49,6 @@ function displayGridMembers(data) {
         address.appendChild(url);
         address.appendChild(membership);
         member.appendChild(address);
-        console.log(member)
         contentContainer.appendChild(member);
     });
 }
