@@ -110,3 +110,9 @@
 .spotlight {
     grid-column: 3/4;
 }
+
+.list-mode section {
+    margin: 0 2rem;
+    display: flex;
+    padding: 1rem;
+}

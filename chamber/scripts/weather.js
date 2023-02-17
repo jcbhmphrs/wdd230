@@ -75,6 +75,8 @@ function displayResults(data) {
         const h2 = document.createElement('h2');
         const img = document.createElement('img');
         const p = document.createElement('p');
+        h2.style.color = '#fff5ec'
+        p.style.color = '#fff5ec'
         h2.innerHTML = `${day.name}:`;
         img.setAttribute('src',`https://openweathermap.org/img/wn/${day.icon}.png`);
         img.setAttribute('alt','icon');

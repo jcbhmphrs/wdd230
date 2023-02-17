@@ -279,7 +279,8 @@ li {
 
 .list-mode section {
     margin: 0 2rem;
-    display: flex;
+    display: inline-block;
+    flex-wrap: wrap;
     padding: 1rem;
 }
 
@@ -304,10 +305,7 @@ li {
     border: solid black;
     border-radius: 8px;
 }
-.card h2, p{
-    color: var(--accent1);
 
-}
 .thankyou {
     color: #09367a;
 }

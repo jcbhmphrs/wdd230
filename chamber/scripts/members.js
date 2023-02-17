@@ -57,12 +57,11 @@ function displayListMembers(data) {
     data.companies.forEach((element) => {
         let member = document.createElement('section');
         let companyName = document.createElement('h2');
-        let address = document.createElement('p');
         let street = document.createElement('p');
         let city = document.createElement('p');
         let phone = document.createElement('p');
         let url = document.createElement('p');
-        let membership = document.createElement('p');        
+        let membership = document.createElement('p');       
 
         url.textContent = element.website;
         phone.textContent = `Number : ${element.phone}`
@@ -78,7 +77,7 @@ function displayListMembers(data) {
         member.appendChild(phone);
         member.appendChild(url);
         member.appendChild(membership);
-        
+        // member.style.color = 'black'
         contentContainer.appendChild(member);
     });
 };
