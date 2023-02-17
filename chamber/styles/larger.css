@@ -101,9 +101,10 @@
 /* ----------------------------weather spotlight------------- */
 #weather-spotlight {
     width: 90%;
-    margin: 0 auto;
+    margin: 1.5rem auto;
     display: grid;
-    grid-template-columns: 1fr 60px 1fr;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 50px;
 }
 
 .spotlight {

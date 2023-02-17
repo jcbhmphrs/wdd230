@@ -36,10 +36,6 @@ a {
     border: 1px solid var(--secondary);
 }
 /* -------------------navigation section of website ----------------------*/
-nav h1 {
-    margin: 0;
-    font-size: 32px;
-}
 nav { 
     background: var(--accent1);
     padding: 1rem;
@@ -93,9 +89,9 @@ header{
 .t-on-color-bg{
     color: var(--accent1);
 }
-#curtain h1 {
+/* #curtain h2 {
     padding-top: 2rem;
-}
+} */
 #curtain a {
     color: var(--accent1);
     font-size: 1.5rem;
@@ -134,9 +130,6 @@ header{
     margin-top: 1rem;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-}
-.content-box {
-    margin-bottom: 1rem;
 }
 
 .content-card{
@@ -306,18 +299,15 @@ li {
 #weather-spotlight {
     margin: 0 auto;
 }
+.card {
+    background-color: var(--secondary);
+    border: solid black;
+    border-radius: 8px;
+}
+.card h2, p{
+    color: var(--accent1);
 
-.weather {
-    background-color: var(--accent1b);
-    border: solid black;
-    border-radius: 8px;
 }
-.spotlight {
-    background-color: var(--accent1b);
-    border: solid black;
-    border-radius: 8px;
-}
-#weather-element {
-    padding-top: 3rem;
-    font-size: 2rem;
+.thankyou {
+    color: #09367a;
 }

@@ -85,10 +85,11 @@
                     <label class="top">Your Name*<input id="form-name" type="text" name="fname" placeholder="First, Last" required></label>
                     <label class="top">Your Email*<input id="form-email" type="email" name="email" placeholder="example@example.com" required></label>
                     <label class="top">Username*<input id="form-username" type="password" name="username1" placeholder="5-12 char ( AZ123az!@# )" pattern="(?=.*\d)(?=.*[^A-Za-z0-9])(?=.*[a-z])(?=.*[A-Z]).{5,12}" required></label>
-                    <label class="top">Verify Username*<input type="password" name="username2" placeholder="re-enter username" required></label>
+                    <label class="top">Verify Username*<input id="form-verify"  type="password" name="username2" placeholder="re-enter username" required></label>
+                    <label id="form-message"></label>
                     <label class="sbs" for="form-rating">Rate Your Experience:  <span id="rating"></span></label>
                     <div class="rangecontainer">
-                        <input type="range" min="1" max="10" id="form-rating" name="r" list="ten" value="5">
+                        <input type="range" min="1" max="10" id="form-rating" name="r" list="ten" value="5">                        
                         <datalist class="ratinglabels">
                             <span class="ratevalue">1</span>
                             <span class="ratevalue">2</span>
@@ -144,6 +145,7 @@
         <p id="copyWrite"></p>
         <p class="highlight" id="lastModified">last modified</p>
     </footer>
+    <script src="scripts/form.js"></script>
     <script src="scripts/learning.js"></script>
     <script src="scripts/getDates.js"></script>
     <script src="scripts/responsiveMenu.js"></script>
